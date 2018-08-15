@@ -1,8 +1,9 @@
 {
   "name": "rank-gitlabels",
-  "version": "1.0.0",
+  "version": "1.0.0-pre.1",
   "description": "A script to list available / previously-used gitlabels.",
   "main": "index.js",
+  "bin": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

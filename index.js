@@ -29,6 +29,7 @@
 var child_process = require('child_process')
 
 // == Command-line parameters ==
+// TODO: Use minimist or etc, not this horrible mess.
   , decorate       = !process.argv[2] || !(process.argv[2][0] === 'n' || process.argv[2][0] === 'f')
   , max_commit_age = process.argv[3]                  || '1 year'
   , max_commits    = parseInt(process.argv[4], 10)    || 1000
