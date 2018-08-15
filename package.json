@@ -1,0 +1,11 @@
+{
+  "name": "rank-gitlabels",
+  "version": "1.0.0",
+  "description": "A script to list available / previously-used gitlabels.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ELLIOTTCABLE (http://ell.io/tt)",
+  "license": "ISC"
+}
